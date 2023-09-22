@@ -11,11 +11,13 @@
 
 .background {
   background-size: 100% 25%;
+  background-image: url("./assets/background.png");
 }
 
 @media screen and (min-width: 600px) {
   .background {
     background-size: 25% 100%;
+    background-image: url("./assets/background-mobile.png");
   }
 }
 /* :root {

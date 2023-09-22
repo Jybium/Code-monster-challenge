@@ -10,10 +10,10 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
+      backgroundImage: (theme) => ({
         gradient: "url('./src/assets/background.png')",
-        "gradient-mobile": "url('./src/assets/background-mobile.png')",
-      },
+        mobile: "url('./src/assets/background-mobile.png')",
+      }),
     },
   },
   plugins: [],
