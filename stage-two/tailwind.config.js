@@ -11,8 +11,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        gradient: "url('./src/assets/background.png')",
-        "gradient-mobile": "url('./src/assets/background-mobile.png')",
+        gradient: "url('./public/background.png')",
+        "gradient-mobile": "url('./public/background-mobile.png')",
       },
     },
   },
